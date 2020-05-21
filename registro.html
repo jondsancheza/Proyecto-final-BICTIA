@@ -14,7 +14,7 @@
 <body>
   <header class="header sticky-top bg-nav">
     <nav class="navbar navbar-expand-lg navbar-dark ">
-      <a class="navbar-brand font-nav" href="./index.html">TITULO</a>
+      <a class="navbar-brand font-nav" href="./index.html">creativeD</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,15 +26,15 @@
             <a class="nav-link" href="./index.html">Inicio</a>
           </li>
           <li class="nav-item ml-3 mr-3">
-            <a class="nav-link" href="./index.html">Link2</a>
+            <a class="nav-link" href="./index.html">Nosotros</a>
           </li>
           <li class="nav-item ml-3 mr-3">
-            <a class="nav-link" href="./index.html">Link3</a>
+            <a class="nav-link" href="./index.html">Contactos</a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto ">
           <li class="nav-item active ml-2 mr-2 ">
-            <a class="btn btn-pag1" href="#">Registro</a>
+            <a class="btn btn-pag1" href="#">Diseña tu futuro</a>
           </li>
         </ul>
 
@@ -42,19 +42,11 @@
     </nav>
   </header>
 
-  <main class="py-3 container-register2">
-    <div class="row justify-content-md-end">
-      <div class="col col-lg-4">
+  <main class="py-5 container-register2">
+    <div class="row justify-content-md-end pt-5">
+      <div class="col col-lg-6">
         <div class="container" id="register" name="register">
           <form action="./index.html">
-            <div class="form-group">
-              <input type="email" class="form-control" id="inputEmail" placeholder="Email" required placeholder="Email">
-            </div>
-            <div class="form-group">
-              <input type="password" class="form-control" id="inputPassword" placeholder="Password" required
-                minlength="8">
-            </div>
-
             <div class="form-row">
               <div class="form-group col-md-6">
                 <input type="text" class="form-control" id="inputName" required placeholder="Nombre">
@@ -63,10 +55,14 @@
                 <input type="text" class="form-control" id="inputLastName" required placeholder="Apellido">
               </div>
             </div>
-
-            <div class="form-group ">
-              <input type="text" id="inputCity" class="form-control" required placeholder="Ciudad de residencia">
+            <div class="form-group">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email" required placeholder="Email">
             </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="inputPassword" placeholder="Password" required
+                minlength="8">
+            </div>
+
             <div class="form-group ">
               <input type="number" class="form-control" id="inputTel" required minlength="7" maxlength="10"
                 placeholder="Telefono" min="0">
@@ -74,22 +70,6 @@
             <div class="form-group text-center">
               <label for="inputDate" class="text-register">Fecha de nacimiento</label>
               <input type="date" class="form-control" id="inputDate" required>
-            </div>
-
-            <div class="mb-2 text-center ">
-              <p class="text-register mb-0">Genero</p>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="genero" id="male" value="male" checked>
-                <label class="form-check-label text-register2" for="male">Masculino</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="genero" id="female" value="female">
-                <label class="form-check-label text-register2" for="female">Femenino</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="genero" id="other" value="other">
-                <label class="form-check-label text-register2" for="other">Otro</label>
-              </div>
             </div>
             
             <div class="form-group">
