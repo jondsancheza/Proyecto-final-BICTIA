@@ -12,7 +12,19 @@ img{
 }
 
 .bg-nav{
-    background-color: rgb(23, 180, 120);
+    background-color: #931621;
+}
+
+div .btn-pag1{
+    background-color: #2C8C99;
+    border: #2C8C99;
+    color: #fff;
+}
+
+div .btn-pag1:hover{
+    background-color: #326771;
+    border: #326771;
+    color: #fff;
 }
 
 
@@ -20,12 +32,12 @@ footer{
     color: #fff;
 }
 
-li a{
-    color: #007bff;
+footer a{
+    color: #2C8C99;
 }
 
-li a:hover{
-    color: #121596;
+footer a:hover{
+    color: #326771;
 }
 
 .fab{
