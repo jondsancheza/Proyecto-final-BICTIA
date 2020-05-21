@@ -26,6 +26,19 @@ nav .font-nav{
     padding-left: 2rem;
 }
 
+.ani{
+    position: relative;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+    0%   {left:0px; top:0px;}
+    50%  {left:0px; top:20px;}
+    100% {left:0px; top:0px;}
+  }
+
 div .btn-pag1{
     background-color: #2C8C99;
     border: #2C8C99;
