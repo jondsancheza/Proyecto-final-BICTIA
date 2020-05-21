@@ -1,0 +1,16 @@
+@font-face{
+    font-family: Ultra;
+    src: url("../fonts/Ultra-Regular.ttf");
+}
+
+.font-frase{
+    font-family: Ultra;
+    font-size: 8vh;
+    color: #2C8C99;
+}
+
+.font-frase2{
+    font-family: Ultra;
+    font-size: 3vh;
+    color: #2C8C99;
+}

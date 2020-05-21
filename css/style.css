@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.bg-nav{
+    background-color: #931621;
+}
+
+@font-face{
+    font-family: Ultra;
+    src: url("../fonts/Ultra-Regular.ttf");
+}
+
+nav .font-nav{
+    font-family: Ultra;
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+div .btn-pag1{
+    background-color: #2C8C99;
+    border: #2C8C99;
+    color: #fff;
+}
+
+div .btn-pag1:hover{
+    background-color: #326771;
+    border: #326771;
+    color: #fff;
+}
+
+
+footer{
+    color: #fff;
+}
+
+footer a{
+    color: #2C8C99;
+}
+
+footer a:hover{
+    color: #326771;
+}
+
+.fab{
+    font-size: 2rem;
+}
