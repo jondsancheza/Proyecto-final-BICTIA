@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.bg-nav{
+    background-color: rgb(23, 180, 120);
+}
+
+
+footer{
+    color: #fff;
+}
+
+li a{
+    color: #007bff;
+}
+
+li a:hover{
+    color: #121596;
+}
+
+.fab{
+    font-size: 2rem;
+}
